@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="nuxeo.extensions.chains" version="1.0.0">
+  <require>org.nuxeo.runtime.started</require>
+	<extension target="org.nuxeo.ecm.core.operation.OperationServiceComponent" point="chains">
+    	<chain id="Automation_Facturae">
+      		<operation id="Context.FetchDocument"/>
+      		<!-- <operation id="Auth.LoginAs">
+        		<param type="string" name="name">OtherUser</param>
+      		</operation> -->
+      		<operation id="Athento.ParseXML"/>
+      		<!-- <operation id="Auth.Logout"/> -->
+    	</chain>
+  	</extension>
+ </component>

@@ -1,0 +1,20 @@
+<events id="Handler_Facturae" version="1.2">
+  <model>
+    <events>
+      <string>documentCreated</string>
+      <string>documentModified</string>
+    </events>
+    <order>0</order>
+    <isAsync>false</isAsync>
+    <rules>
+      <rules>
+        <org.nuxeo.studio.client.modules.action.RuleModel>
+          <key>hasType</key>
+          <operator>==</operator>
+          <value>Facturae</value>
+        </org.nuxeo.studio.client.modules.action.RuleModel>
+      </rules>
+    </rules>
+    <chain>Automation_Facturae</chain>
+  </model>
+</events>

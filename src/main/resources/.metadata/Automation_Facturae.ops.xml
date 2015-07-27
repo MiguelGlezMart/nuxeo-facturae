@@ -1,0 +1,11 @@
+<operation-chain id="Automation_Facturae" version="1.2">
+  <chain type="Default">
+    <doc></doc>
+    <inputParams/>
+    <operations>
+      <operation id="Context.FetchDocument">
+        <params/>
+      </operation>
+    </operations>
+  </chain>
+</operation-chain>
