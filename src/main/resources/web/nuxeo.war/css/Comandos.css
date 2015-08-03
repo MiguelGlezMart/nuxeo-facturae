@@ -1,0 +1,40 @@
+.metadata_block{
+  overflow: scroll !important;
+}
+
+.gridRow {
+    background: #F1F4F8 none repeat scroll 0% 0%;
+    padding: 1rem;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15), -1px 0px 0px rgba(0, 0, 0, 0.02), 1px 0px 0px rgba(0, 0, 0, 0.02), 0px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.boldColumn {
+	padding: 0px 0px 0.5em;
+	border-top: medium none;
+	margin: 0px 0px 0.6em;
+	color: #213F7D;
+	border-style: solid none none;
+	border-width: 3px;
+	font-size: 1.2em;
+	display: block;
+	font-weight: bold;
+	border-color: #F9F9F9;
+	padding: 0.8em 0px 0.2em;
+	position: relative;
+	top: 5px;
+	left: 20px;
+	width: 180px;
+}
+
+/*.labelColumn {
+	position: relative;
+	top: 55px;
+	left: -120px;
+}
+
+.fieldColumn {
+	position: relative;
+	top: 55px;
+	left: -120px;
+}*/
