@@ -24,6 +24,8 @@
     <type id="Facturae">
       <label>Facturae</label>
       <description></description>
+      <icon>/img/file.png</icon>
+      <bigIcon>/img/file_100.png</bigIcon>
       <default-view>view_documents</default-view>
       <layouts mode="create">
         <layout>layout@Facturae-create</layout>
