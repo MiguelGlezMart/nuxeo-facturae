@@ -108,7 +108,7 @@ public class ParseXML {
 			Node tempNode2 = nodeList2.item(i);
 			if(tempNode2.getNodeType()==Node.ELEMENT_NODE){
 				mainChain = tempNode2.getNodeName();
-				funcRecursiva(tempNode2, mainChain, doc);
+				extraeValoresXMLaMetadatosDocumento(tempNode2, mainChain, doc);
 			}
 		}
 		
@@ -130,7 +130,7 @@ public class ParseXML {
         return blob;
     }
     
-    private static void funcRecursiva(Node node, String mainChain, DocumentModel doc) throws DOMException, Exception{
+    private static void extraeValoresXMLaMetadatosDocumento(Node node, String mainChain, DocumentModel doc) throws DOMException, Exception{
 		
 		if(node.hasChildNodes() && node.getChildNodes().getLength()!=1){
 			NodeList nodeList3 = node.getChildNodes();
@@ -138,7 +138,7 @@ public class ParseXML {
 				
 				Node node2 = nodeList3.item(i);
 				if(node2.getNodeType()==Node.ELEMENT_NODE){
-					funcRecursiva(node2, mainChain, doc);
+					extraeValoresXMLaMetadatosDocumento(node2, mainChain, doc);
 				}
 			}
 		} else {
