@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Require-Bundle: org.nuxeo.runtime
-Bundle-Vendor: Nuxeo
+Bundle-Vendor: Athento
 Bundle-Version: 1.0.0
-Bundle-Name: Athento - org.athento.nuxeo.automation.nuxeo_facturae
+Bundle-Name: Athento - org.athento.nuxeo.automation.facturae
 Nuxeo-Component: OSGI-INF/extensions.xml,OSGI-INF/operations.xml,OSGI-INF/chains.xml
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: org.athento.nuxeo.plugins.automation.nuxeo_facturae
+Bundle-SymbolicName: org.athento.nuxeo.plugins.automation.facturae
 
