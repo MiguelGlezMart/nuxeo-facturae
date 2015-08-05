@@ -123,12 +123,12 @@
           </properties>
           <widget>title</widget>
         </row>
-        <!-- <row>
+        <row>
           <properties mode="any">
             <property name="nxl_colspan_0">1</property>
           </properties>
           <widget>Arch_XML</widget>
-        </row> -->
+        </row>
         <row>
           <properties mode="any">
             <property name="nxl_colspan_0">1</property>
@@ -1542,7 +1542,7 @@
           <property name="styleClass">dataInputText</property>
         </properties>
       </widget>
-      <!-- <widget name="Arch_XML" type="file">
+      <widget name="Arch_XML" type="file">
         <labels>
           <label mode="any">XML</label>
         </labels>
@@ -1551,7 +1551,7 @@
           <field>Esq_Factura:Arch_XML</field>
           <field>Esq_Factura:Arch_XML/filename</field>
         </fields>
-      </widget> -->
+      </widget>
       <widget name="Dato1" type="hidden">
         <labels>
           <label mode="any">label.cabecera</label>
