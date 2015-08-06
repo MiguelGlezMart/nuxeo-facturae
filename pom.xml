@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   
-  <groupId>org.athento</groupId>
-  <artifactId>org.athento.Facturae</artifactId>
+  <groupId>org.nuxeo</groupId>
+  <artifactId>Facturae</artifactId>
     <version>1.0-SNAPSHOT</version>
   <name>Facturae</name>
   <description>
@@ -25,8 +25,7 @@
     </dependencyManagement>
 
   <dependencies>
-
-	<dependency>
+    <dependency>
 		<groupId>org.nuxeo.ecm.automation</groupId>
 		<artifactId>nuxeo-automation-core</artifactId>
 	</dependency>
@@ -93,6 +92,17 @@
           </classpathContainers>
         </configuration>
       </plugin>
+      <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-jar-plugin</artifactId>
+		<configuration>
+		<archive>
+			<manifestFile>
+			src/main/resources/META-INF/MANIFEST.MF
+			</manifestFile>
+		</archive>
+		</configuration>
+	</plugin>
     </plugins>
   </build>
 
@@ -115,16 +125,6 @@
       </releases>
       <snapshots>
         <updatePolicy>always</updatePolicy>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>public-snapshot</id>
-      <url>http://maven.nuxeo.org/nexus/content/groups/public-snapshot</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
         <enabled>true</enabled>
       </snapshots>
     </repository>
