@@ -10,7 +10,7 @@ Hay dos formas de poner en funcionamiento el plugin:
 
 a. Descargar y compilar el archivo "pom.xml" utilizando Maven y desplegar el plugin. Para ello, se hace uso de la siguiente secuencia de comandos:
 
-	cd nuxeo-facturae
+	cd nuxeo-facturae-master
 	mvn clean install
 	cp target/Facturae-*.jar $NUXEO_HOME/nxserver/plugins
 
