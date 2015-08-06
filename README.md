@@ -12,7 +12,7 @@ a. Descargar y compilar el archivo "pom.xml" utilizando Maven y desplegar el plu
 
 	cd nuxeo-facturae
 	mvn clean install
-	cp target/nuxeo-facturae-*.jar $NUXEO_HOME/nxserver/plugins
+	cp target/Facturae-*.jar $NUXEO_HOME/nxserver/plugins
 
 b. Abrir un proyecto en Eclipse e incluir el plugin. Posteriormente, seleccionar la opción Nuxeo->Export JAR y copiar el .jar generado en la carpeta de plugins de la distribución de Nuxeo.
 
